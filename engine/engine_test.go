@@ -29,3 +29,8 @@ func TestEngine_MarketOrderTradeExecute(t *testing.T) {
 func TestEngine_PrintOrderBook(t *testing.T) {
 	t.Skip("TODO")
 }
+
+// Test benchmark for AddOrder with random buy & sell orders
+func Benchmark_AddOrder(b *testing.B) {
+	b.Skip("TODO")
+}
